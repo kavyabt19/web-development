@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Service</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="oldstyle.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="home">
+            <nav class="desktop-nav">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="images/logo.png" alt="" />
+                    </a>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="#Features">Features</a>
+                    </li>
+                    <li>
+                        <a href="#images">images</a>
+                    </li>
+                    <li>
+                        <a href="#service query">service query</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <nav class="mobile-nav">
+                <div class="logo">
+                    <a href="#home">
+                        <img src="images/logo.png" alt="" />
+                    </a>
+                </div>
+
+                <div class="menu-btn">
+                    <img src="images/menu-icon.png" alt="" />
+                </div>
+            </nav>
+
+            <div class="mobile-menu-container">
+                <ul>
+                    <li>
+                        <a href="#Features">Features</a>
+                    </li>
+                    <li>
+                        <a href="#work">My Work</a>
+                    </li>
+                    <li>
+                        <a href="#service query">service query</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="hero-container">
+                <div class="left">
+                    <p class="i-am">
+                        welcome to
+                    </p>
+                    <h2>
+                        car
+                    </h2>
+                    <h2>
+                        service
+                    </h2>
+
+                    <a href="#contact" class="btn">Contact</a>
+
+                    <div class="social-icons">
+                        <a href="#">
+                            <img src="images/twitter-logo.png" alt="" />
+                        </a>
+
+                        <a href="#">
+                            <img src="images/dribbble-logo.png" alt="" />
+                        </a>
+
+                        <a href="#">
+                            <img src="images/instagram-logo.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+
+                <div class="right">
+                    <video width="600" height="600" autoplay><source src="videos/services.mp4" type="video/mp4"></video>
+
+                </div>
+            </div>
+        </header>
+
+        <section id="Features">
+            <h2>Features</h2>
+            <div class="section-content">
+                <p>
+                    <b>WHY SERVICE YOUR CAR REGULARLY?</b><br>Regular servicing of your car is an important part of being an owner of car. We depend so much on travelling from one place to another. When the unwanted things happen and if car breaks down,
+                    it often ruins that time. Servicing a car regularly does not assure certain failure but it will certainly help to reduce the intensity of loss. It is always recommended that an engine oil should be completely drained while doing servicing.
+                    The oil must be inspected for any impurities or metal fragments which could indicate engine wear. Engine Oil is like a blood of engine. You must always try to ensure that engine oil condition is not too much thick.</br>
+                </p>
+                <p>
+                    1. Changing oil ,flat tire, spark plugs, 2. Removing scratches from paint, 3. Replacing air filters.
+                    <br>4. Changing a car battery, 5.Replacing a headlight or taillight ,6. Replacing wipers.</br>
+                </p>
+
+
+
+
+            </div>
+        </section>
+
+        <section id="images">
+            <h2>images</h2>
+
+            <div class="section-content">
+                <div class="work-container">
+                    <img src="images/car.png" alt="" />
+                    <img src="images/car2.png" alt="" />
+                    <img src="images/car6.png" alt="" />
+                    <img class="mobile-hide" src="images/car3.png" alt="" />
+                    <img class="mobile-hide" src="images/car4.png" alt="" />
+                    <img class="mobile-hide" src="images/car5.png" alt="" />
+                </div>
+                <a href="#" class="btn light">My Gallery </a>
+            </div>
+        </section>
+
+        <div id="service query"></div>
+
+        <section class="service query-section">
+            <img class="quote-icon" src="images/carlog.png" alt="" />
+            <p class="service query-text">
+                <table id="resume">
+                    <tr>
+                        <td>
+                            <h1>Add service Query are Review </h1>
+                            <label class="sun" for="">Query</label>
+                            <input type="text" placeholder="Add service query">
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label class="sun" for="">Review</label>
+                            <input type="text" placeholder="Add service review">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button><a href="#home">Submit</a></button>
+                            <button style="font-size: 15px;" type="Reset">Reset</button>
+                        </td>
+                    </tr>
+                </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <div class="section-content">
+                <div class="email">
+                    <img src="images/mail-icon.png" alt="" />
+                    <div class="contact-text">kavyabt48@gmail.com</div>
+                </div>
+
+                <div class="phone">
+                    <img src="images/phone-icon.png" alt="" />
+                    <div class="contact-text">8431996293</div>
+                </div>
+
+                <div class="address">
+                    <img src="images/address-logo.png" alt="" />
+                    <div class="contact-text">
+                        Trinity Mobility ,Bengaluru, Karnataka 560052
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            Thank you please visit again
+        </footer>
+    </div>
+
+    <script>
+        const menuBtn = document.querySelector(".menu-btn");
+        const mobileMenuContainer = document.querySelector(
+            ".mobile-menu-container"
+        );
+        const mobileMenuItems = document.querySelectorAll(
+            ".mobile-menu-container ul li a"
+        );
+
+        menuBtn.addEventListener("click", function() {
+            mobileMenuContainer.classList.toggle("active");
+        });
+
+        mobileMenuItems.forEach((i) => {
+            i.addEventListener("click", function() {
+                mobileMenuContainer.classList.remove("active");
+            });
+        });
+    </script>
+</body>
+
+</html>
